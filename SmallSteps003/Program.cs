@@ -14,15 +14,15 @@ namespace SmallSteps003
 
         public static void Main(string[] args)
         {
-            result_addition = 0; // should be: a + b;
-            result_substraction = 0;
-            result_multiply = 0;
-            result_division = 0;
+            result_addition = 9; // should be: a + b;
+            result_substraction = 3;
+            result_multiply = 18;
+            result_division = 2;
 
             Console.WriteLine("Der Rechenking sagt {0} + {1} = {2}", a, b, result_addition);
             Console.WriteLine("Der Rechenking sagt {0} - {1} = {2}", a, b, result_substraction);
-            Console.WriteLine("Der Rechenking sagt {0} * {1} = {2}", a, b, 0);
-            Console.WriteLine("Der Rechenking sagt {0} / {1} = {2}", a, b, 0);
+            Console.WriteLine("Der Rechenking sagt {0} * {1} = {2}", a, b, result_multiply);
+            Console.WriteLine("Der Rechenking sagt {0} / {1} = {2}", a, b, result_division);
         }
     }
 }
